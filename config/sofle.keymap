@@ -56,7 +56,7 @@
                 <&inc_dec_kp PG_UP PG_DN>;
         };
 
-        lower_layer {
+        first_layer {
             display-name = "lower";
 
             // TODO: Some binds are waiting for shifted keycode support.
@@ -80,7 +80,7 @@
                 <&inc_dec_kp PG_UP PG_DN>;
         };
 
-        raise_layer {
+        second_layer {
             display-name = "raise";
 
             // ------------------------------------------------------------------------------------------------------------
